@@ -1,0 +1,14 @@
+{
+  "name": "thesimp",
+  "version": "1.0.0",
+  "description": "The Simp Bot source code, Terms and Privacy URL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.3"
+  }
+}
