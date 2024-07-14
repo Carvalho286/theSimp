@@ -13,6 +13,14 @@ const slashRegister = async () => {
                 {
                     name: "ping",
                     description: "Just a simple ping command, no less."
+                },
+                {
+                    name: "diogo",
+                    description: "🔥"
+                },
+                {
+                    name: "miguel",
+                    description: "★"
                 }
             ]
         })

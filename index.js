@@ -10,6 +10,12 @@ client.on("interactionCreate", async (interaction) => {
         if (interaction.commandName === "ping") {
             interaction.reply("pong");
         }
+        if (interaction.commandName === "diogo") {
+            interaction.reply("O Diogo é GAY");
+        }
+        if (interaction.commandName === "miguel") {
+            interaction.reply("O Miguel é o Rei");
+        }
     }
 });
 
