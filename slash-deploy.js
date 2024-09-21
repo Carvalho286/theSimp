@@ -21,7 +21,28 @@ const slashRegister = async () => {
                 {
                     name: "miguel",
                     description: "★"
-                }
+                },
+                {
+                    name: "kick",
+                    description: "gg",
+                    options: [
+                        {
+                            name: "user",
+                            type: 6, // USER type
+                            description: "O bot que vai ser kickado",
+                            required: true
+                        }
+                    ]
+                },
+                {
+                    name: "criador",
+                    description: "O meu criador",
+                },
+                {
+                    name: "wassup",
+                    description: "O streamer",
+                },
+
             ]
         })
     } catch (err) {
